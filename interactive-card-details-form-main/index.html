@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
@@ -13,25 +14,25 @@
 </head>
 
 <body>
-  <main>
-    <section>
-      <div>
-        <img src="images/bg-card-front.png" alt="card front">
-        <img src="images/card-logo.svg" alt="card logo">
-      </div>
-      <div>
-        <span>0000 0000 0000 0000</span>
-      </div>
-      <div>
-        <span>Jane Appleseed</span>
-        <span>00</span> / <span>00</span>
-      </div>
-      <div>
-        <img src="images/bg-card-back.png" alt="card back">
-      </div>
-      <div>
-        <span>000</span>
-      </div>
+  <main class="container">
+    <section class="left__section">
+        <div class="card__front">
+          <img class="img__card-front" src="images/bg-card-front.png" alt="card front">
+          <img class="card__logo" src="images/card-logo.svg" alt="card logo">
+        </div>
+        <div class="inf">
+          <h1 class="card__info-number">0000 0000 0000 0000</h1>
+        </div>
+        <div class="card__info">
+          <span>Jane Appleseed</span>
+          <span>00</span> / <span>00</span>
+        </div>
+        <div class="card-back">
+          <img src="images/bg-card-back.png" alt="card back">
+        </div>
+        <div>
+          <span>000</span>
+        </div>
     </section>
     <form action="">
       <div>
@@ -66,10 +67,7 @@
     </div>
 
   </main>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
 </body>
 
 </html>

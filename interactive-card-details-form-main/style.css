@@ -1,0 +1,60 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+:root{
+   --White: hsl(0, 0%, 100%);
+--Light-grayish-violet: hsl(270, 3%, 87%);
+--Dark-grayish-violet: hsl(279, 6%, 55%);
+--Very-dark-violet: hsl(278, 68%, 11%);
+}
+body{
+   box-sizing: border-box;
+   font-family: 'Space Grotesk', sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+  
+}
+
+.left__section{
+   background-image: url(./images/bg-main-desktop.png);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 30%;
+   position: relative;
+}
+.container{
+   display: flex;
+   height: 100vh;
+}
+.card__front{
+   left: 20%;
+   position: absolute;
+   top: 7%; 
+}
+
+.card__logo{
+   position: absolute;
+   right:78%;
+   top:5%;
+}
+
+.card-back{
+   position: absolute;
+   top: 53% ;
+   left: 50%;
+
+}
+.card__info-number{
+   color: var(--White);
+   font-size: 30px;
+   letter-spacing: 2.5px;  
+
+}
+.inf{
+   left: 25%;
+   position: absolute;
+   top: 30%;
+   width: 100%;
+}

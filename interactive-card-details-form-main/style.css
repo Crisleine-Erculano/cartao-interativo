@@ -4,9 +4,9 @@
 }
 :root{
    --White: hsl(0, 0%, 100%);
---Light-grayish-violet: hsl(270, 3%, 87%);
---Dark-grayish-violet: hsl(279, 6%, 55%);
---Very-dark-violet: hsl(278, 68%, 11%);
+   --Light-grayish-violet: hsl(270, 3%, 87%);
+   --Dark-grayish-violet: hsl(279, 6%, 55%);
+   --Very-dark-violet: hsl(278, 68%, 11%);
 }
 body{
    box-sizing: border-box;
@@ -40,21 +40,50 @@ body{
    top:5%;
 }
 
-.card-back{
-   position: absolute;
-   top: 53% ;
-   left: 50%;
-
-}
 .card__info-number{
+   display: block;
    color: var(--White);
    font-size: 30px;
-   letter-spacing: 2.5px;  
+   letter-spacing: 0.1563rem;  
 
 }
-.inf{
+.info{
    left: 25%;
    position: absolute;
    top: 30%;
    width: 100%;
 }
+.card__info{
+   color: var(--White);
+   display: flex;
+   font-size: 1.4rem;
+   justify-content: space-between;
+   left: 25%;
+   position: absolute;
+   text-transform: uppercase;
+   top:40% ;
+   width: 100%;
+}
+.card__back{
+   position: absolute;
+   top: 53% ;
+   left: 50%;
+
+}
+.cvc{
+   align-items: center;
+   color: var(--White);
+   display: flex;
+   height: 100%;
+   justify-content: flex-end;
+   
+   position:absolute;
+   top: 0;
+   width: 100%;
+   
+}
+.cvc span{
+   padding-right: 3.75rem;
+   letter-spacing: 0.125rem;
+}
+
